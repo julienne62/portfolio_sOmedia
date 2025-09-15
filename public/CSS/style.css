@@ -48,14 +48,14 @@ nav ul li a:hover {
     color: #000;
 }
 
-#hero {
+#look {
     background-color: var(--secondary);
     padding: 4rem 2rem;
     text-align: center;
     position: relative;
     overflow: hidden;
 }
-.hero-content {
+.look-content {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -65,17 +65,17 @@ nav ul li a:hover {
     width: 200px;
     margin-bottom: 2rem;
 }
-.hero-title {
+.look-title {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
-.hero-subtitle {
+.look-subtitle {
     font-size: 1.25rem;
     margin-bottom: 2rem;
     color: var(--gray);
 }
-.hero-buttons {
+.look-buttons {
     display: flex;
     justify-content: center;
     gap: 1rem;
