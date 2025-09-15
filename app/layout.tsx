@@ -34,9 +34,7 @@ export default function RootLayout({
 } 
  */
 
-
-
-
+import '../public/css/style.css';
 import type { Metadata } from 'next';
 import './globals.css'; 
 

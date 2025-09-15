@@ -132,8 +132,8 @@ export default function Home() {
           <h1 className="look-title">Chaque projet est une signature, voici la nôtre.</h1>
           <p className="look-subtitle">L'agence de communication qui booste votre notoriété</p>
           <div className="look-buttons">
-            <button className="">Contact</button>
-            <button className="">Explore</button>
+            <button className="btn btn-black">Contact</button>
+            <button className="btn btn-primary">Explore</button>
           </div>
         </div>
         
@@ -184,8 +184,8 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="">
-          <div className="">
+        <div className="footer-content">
+          <div className="footer-section">
             <h3 className="footer-title">Adresses</h3>
             <p>POINTE-NOIRE : 317 Avenue du Général Charles de Gaulle, face Hôtel Migal, Centre-Ville</p>
             <p>BRAZZAVILLE : Aéroport Maya-Maya, Mezzanine</p>
