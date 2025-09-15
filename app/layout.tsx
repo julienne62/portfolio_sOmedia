@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+/* import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -29,6 +29,30 @@ export default function RootLayout({
       >
         {children}
       </body>
+    </html>
+  );
+} 
+ */
+
+
+
+
+import type { Metadata } from 'next';
+import './globals.css'; 
+
+export const metadata: Metadata = {
+  title: 'sOmedia',
+  description: 'Agence de communication',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="fr">
+      <body>{children}</body>
     </html>
   );
 }
