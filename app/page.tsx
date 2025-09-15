@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* import Image from "next/image";
 
 export default function Home() {
   return (
@@ -99,5 +99,109 @@ export default function Home() {
         </a>
       </footer>
     </div>
+  );
+}
+ */
+
+
+
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>sOmedia</title>
+      </Head>
+      <header>
+        <img src="/logo-somedia.png" alt="sOmedia Logo" className="logo" />
+        <nav>
+          <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Explorer</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="look">
+        <div className="look-content">
+          <img src="" alt="Grenouille sOmedia" className="frog-mascot" />
+          <h1 className="look-title">Chaque projet est une signature, voici la nôtre.</h1>
+          <p className="look-subtitle">L'agence de communication qui booste votre notoriété</p>
+          <div className="look-buttons">
+            <button className="">Contact</button>
+            <button className="">Explore</button>
+          </div>
+        </div>
+        
+        <div className="cards">
+          <div className="card card-pink"></div>
+          <div className="card card-yellow"></div>
+          <div className="card card-cyan"></div>
+          <div className="card card-black"></div>
+          <div className="card card-cyan"></div>
+          <div className="card card-yellow"></div>
+          <div className="card card-pink"></div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div className="projects-content">
+          <h2 className="projects-title">Explorez nos projets et laissez-les parler pour nous</h2>
+          <div className="logos">
+            <div className="logo-box"><img src="" alt="" className="logo-img" /></div>
+            <div className="logo-box"><img src="" alt="" className="logo-img" /></div>
+            <div className="logo-box"><img src="" alt="" className="logo-img" /></div>
+            <div className="logo-box"><img src="" alt="" className="logo-img" /></div>
+            <div className="logo-box"><img src="" alt="" className="logo-img" /></div>
+            <div className="logo-box"><img src="" alt="" className="logo-img" /></div>
+            <div className="logo-box"><img src="" alt="" className="logo-img" /></div>
+
+            {/* suite de box............. */}
+           
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div className="">
+          <form>
+            <label htmlFor="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" />
+
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" />
+
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit" className="submit-btn">Envoyer</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div className="">
+          <div className="">
+            <h3 className="footer-title">Adresses</h3>
+            <p>POINTE-NOIRE : 317 Avenue du Général Charles de Gaulle, face Hôtel Migal, Centre-Ville</p>
+            <p>BRAZZAVILLE : Aéroport Maya-Maya, Mezzanine</p>
+          </div>
+          <div className="footer-section">
+            <h3 className="footer-title">Contacts</h3>
+            <p>Téléphone : +242 06 800 00 06</p>
+            <p>e-mail : contact@somedia.cg</p>
+            <div className="social-icons">
+              <a href="#" className="social-icon">f</a> 
+              <a href="#" className="social-icon">in</a>
+            </div>
+          </div>
+        </div>
+        <p className="copyright">© 2025 par sOmedia</p>
+      </footer>
+    </>
   );
 }
